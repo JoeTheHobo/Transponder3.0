@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TLU: Key Catagorizer</title>
+    <link rel="stylesheet" href="keyCator.css">
+</head>
+<body>
+    <div id='leftSide'>
+        <img id='decodeImage'></img>
+        <button id='newCatBTN' onclick='newCatagory()'>New Catagory</button>
+        <button id='skipBTN' onclick='skip()'>Skip</button>
+        <img id='examineImage'></img>
+        <div id="location"></div>
+        <table id="table">
+            <tr>
+                <th>Frequency: </th>
+                <th id="mainFreq"></th>
+            </tr>
+            <tr>
+                <th>VS old Frequency: </th>
+                <th id="oldFreq"></th>
+            </tr>
+            <tr>
+                <th>Battery: </th>
+                <th id="mainBat"></th>
+            </tr>
+            <tr>
+                <th>VS old Battery: </th>
+                <th id="oldBat"></th>
+            </tr>
+            <tr>
+                <th>Blade: </th>
+                <th id="mainBlade"></th>
+            </tr>
+            <tr>
+                <th>VS old Blade: </th>
+                <th id="oldBlade"></th>
+            </tr>
+        </table>
+    </div>
+
+    <div id='catagories'></div>
+
+    <script src='../libraries/library_simple_v14.js'></script>
+    <!--Instert All Plugins Below This Line-->
+    <!--Example: <script src='../../plugins/plugin_ccm_v2.js'></script>   -->
+	<script src='../plugins/plugin_local storage_v2.js'></script>
+
+    <!--And Above This Line-->
+    <script src='../sheet.js'></script>
+    <script src='../decodeSheet.js'></script>
+    <script src='keyCator.js'></script>
+</body>
+</html>

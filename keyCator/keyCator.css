@@ -1,0 +1,38 @@
+body {
+    background: #001;
+}
+.holder {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.holder:hover {
+    border: 1px solid gold;
+}
+#decodeImage {
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+#examineImage {
+    
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+#leftSide {
+    width: 400px;
+    background: white;
+    height: 100%;
+    position: absolute;
+}
+#catagories {
+    position: absolute;
+    left: 420px;
+}
